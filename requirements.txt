@@ -1,0 +1,13 @@
+# Stage 1 – yt-dlp (installed from the submodule in repos/yt-dlp)
+-e ./repos/yt-dlp
+
+# Stage 2 – transcription + clip finding
+clipsai
+whisperx @ git+https://github.com/m-bain/whisperx.git
+# torch and torchaudio must be the same release or torchaudio fails to load
+torch==2.8.0
+torchaudio==2.8.0
+numpy
+
+# Stage 3 – Postiz API + optional AI copywriting
+requests

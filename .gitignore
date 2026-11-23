@@ -1,0 +1,14 @@
+# secrets
+.env
+
+# downloaded videos, transcripts and rendered clips
+runs/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# os
+.DS_Store
+Thumbs.db

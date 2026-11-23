@@ -1,0 +1,9 @@
+[submodule "repos/yt-dlp"]
+	path = repos/yt-dlp
+	url = https://github.com/yt-dlp/yt-dlp.git
+[submodule "repos/video-editor"]
+	path = repos/video-editor
+	url = https://github.com/ClipsAI/video-editor.git
+[submodule "repos/postiz"]
+	path = repos/postiz
+	url = https://github.com/Fogged1/Postiz-app.git
